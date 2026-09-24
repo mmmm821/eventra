@@ -1,0 +1,6 @@
+{
+  "crons": [
+    { "path": "/api/bookings/cleanup-expired", "schedule": "*/5 * * * *" },
+    { "path": "/api/notifications/send-reminders", "schedule": "0 * * * *" }
+  ]
+}
